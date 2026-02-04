@@ -1,0 +1,10 @@
+/* Custom overrides */
+img[src*="soltnLogo.png"]{
+  display:block;
+  margin:0 auto 20px auto;
+  width:1950px;
+  height:auto;
+}
+@media screen and (max-width:480px){
+  img[src*="soltnLogo.png"]{width:160px}
+}
